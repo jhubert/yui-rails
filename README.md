@@ -7,11 +7,9 @@ No-hassle integration of YUI with the Rails 3.1 asset pipeline.
 This gem vendors the latest YUI 3 for easy use. Once installed, add YUI to your app by adding: 
 
     //= require yui
-    
-To your `app/assets/javascripts/application.js`. 
+    //= require yui_ujs
 
-You can use debug or pre-minimized versions by requiring `yui-debug` or `yui-min`.
-
+To your `app/assets/javascripts/application.js`.
 
 ## Requirements
 
